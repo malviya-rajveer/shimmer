@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 
