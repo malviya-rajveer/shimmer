@@ -9,7 +9,7 @@ export const HeroSection = () => {
         className={cn(
           "absolute left-0 mt-18 h-[87vh] rounded-tr-md border border-black/5 text-black",
           "[box-shadow:_inset_-2px_5px_20px_white,_inset_-2px_2px_1px_white,inset_0px_0px_200px_rgba(255,_255,_255,_0.1)] backdrop-blur-3xl",
-          "mobile-L:min-w-70 break-1440:w-230 min-w-50 md:min-w-130 lg:min-w-164 xl:min-w-210 2xl:min-w-250",
+          "mobile-L:min-w-70 break-1440:w-230 mobile-m:w-63 w-50 md:min-w-130 lg:min-w-164 xl:min-w-210 2xl:min-w-250",
         )}
       ></div>
       <div
