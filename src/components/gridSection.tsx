@@ -22,7 +22,7 @@ export const GridSectiom = () => {
         </p>
         <div
           className={cn(
-            "grid h-screen grid-cols-1 gap-2 md:h-[70vh] md:grid-cols-5 md:grid-rows-4",
+            "grid h-full grid-cols-1 gap-2 md:h-[70vh] md:grid-cols-5 md:grid-rows-4",
             "mobile-L:w-80 w-70 md:w-2xl lg:w-full",
           )}
         >
@@ -129,6 +129,7 @@ export const GridSectiom = () => {
           </div>
         </div>
       </div>
+      <div className="h-150 w-full md:hidden"></div>
     </div>
   );
 };
