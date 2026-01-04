@@ -25,22 +25,19 @@ export const HeroSection = () => {
       <div className="flex flex-col items-center justify-center text-center">
         <h1
           className={cn(
-            "pointer-events-none z-10 bg-linear-to-b from-zinc-950 to-neutral-500/80 bg-clip-text",
-            "font-sans font-bold tracking-tighter text-transparent md:pb-2",
+            "pointer-events-none z-10 bg-linear-to-b from-neutral-700 to-neutral-900/80 bg-clip-text",
+            "font-sans font-medium tracking-tighter text-transparent md:pb-4",
             "mobile-L:text-3xl text-2xl md:text-4xl xl:text-6xl",
           )}
         >
           Modern web {""}
-          <Chromatext word={"designs"}></Chromatext> that feel{" "}
-          <span className="bg-linear-to-b from-zinc-950 to-neutral-500/80 bg-clip-text text-transparent">
-            amazing
-          </span>
+          <Chromatext word={"designs"}></Chromatext> that feel's amazing
         </h1>
         <h1
           className={cn(
             "font-havana pointer-events-none z-0 bg-radial",
             "bg-[radial-gradient(46%_90%_at_42%_79%,#ff6bfc_20%,rgb(156_97_255)_100%)] bg-clip-text",
-            "pt-1 not-only:text-transparent lg:pt-2",
+            "pb-4 not-only:text-transparent lg:pt-2",
             "text-3xl md:text-[40px] lg:text-5xl xl:text-6xl",
           )}
         >
@@ -48,8 +45,8 @@ export const HeroSection = () => {
         </h1>
         <p
           className={cn(
-            "z-10 mx-auto max-w-70 pt-2.5 text-center text-[10px] text-neutral-700",
-            "mobile-L:text-[11px] md:text-[13px] lg:text-sm",
+            "z-10 mx-auto max-w-70 text-center text-[10px] tracking-normal text-neutral-600",
+            "mobile-L:text-[11px] leading-relaxed font-medium md:text-[13px] lg:text-[16px]",
             "mobile-L:max-w-80 md:max-w-md lg:max-w-lg",
           )}
         >
@@ -59,11 +56,10 @@ export const HeroSection = () => {
         <div className="z-50 flex items-center justify-center">
           <button
             className={cn(
-              "relative top-5 z-10 cursor-pointer rounded-full bg-neutral-800 py-2",
+              "relative top-8 z-10 cursor-pointer rounded-full bg-neutral-800/90 py-2",
               "text-white [box-shadow:inset_0px_0px_0px_white,inset_0px_0px_10px_#171717]",
-              // "mobile-L:ml-33 ml-25 md:ml-57 lg:ml-55",
               "w-25 md:w-30 lg:w-40",
-              "text-[12px] md:text-sm",
+              "text-[12px] tracking-wide md:text-sm",
             )}
           >
             Join the wishlist

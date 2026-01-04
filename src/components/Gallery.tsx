@@ -28,8 +28,8 @@ export const Gallery = () => {
 
   return (
     <div className="flex h-screen w-full flex-col items-center justify-center bg-linear-to-b from-zinc-50 from-20% to-pink-300/50">
-      <h2 className="mt-15 flex bg-linear-to-b from-zinc-950 to-neutral-600/80 bg-clip-text text-3xl font-bold tracking-tight text-transparent md:mt-20 md:text-4xl lg:text-4xl">
-        Gallery
+      <h2 className="mt-15 ml-2 flex bg-linear-to-b from-neutral-700 to-neutral-900/80 bg-clip-text pb-2 text-3xl font-medium tracking-tight text-transparent md:mt-20 md:text-[37px]">
+        Look at some nice photo collection!
         <svg
           width="72"
           height="72"
@@ -59,9 +59,7 @@ export const Gallery = () => {
           </defs>
         </svg>
       </h2>
-      <p className="pt-2 text-[12px] text-neutral-600 md:text-[14px]">
-        look at some nice photos collection
-      </p>
+      {/* <p className="pb-4 text-[12px] text-neutral-600 md:text-[16px]"></p> */}
       <div className="mobile-L:max-w-sm mt-5 flex max-w-80 gap-1.5 md:max-w-xl md:gap-3 lg:max-w-full">
         {Gallery.map((data, idx) => {
           return (

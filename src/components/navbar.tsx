@@ -60,7 +60,7 @@ export const Navbar = () => {
             Shimmer
           </div>
         </div>
-        <div className="mobile-L:text-[12px] mobile-L:gap-2 mobile-L:pr-5 flex items-center gap-1 pt-2 pr-2 text-[11px] text-neutral-700 md:gap-3 md:text-sm">
+        <div className="mobile-L:text-[11.5px] mobile-L:gap-2 mobile-L:pr-5 flex items-center gap-1 pt-2 pr-2 text-[11px] font-medium text-neutral-700/90 md:gap-3 md:text-sm">
           <Link className="hover:text-neutral-500" href={""}>
             home
           </Link>

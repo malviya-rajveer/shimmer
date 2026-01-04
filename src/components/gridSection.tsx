@@ -10,13 +10,13 @@ export const GridSectiom = () => {
       <div className="md: mx-auto mt-[20vh] flex h-screen flex-col items-center lg:max-w-4xl">
         <h1
           className={cn(
-            "mt-15 bg-linear-to-b from-zinc-950 to-neutral-600/80 bg-clip-text font-bold tracking-tight text-transparent",
+            "mt-15 bg-linear-to-b from-neutral-700 to-neutral-900/80 bg-clip-text font-medium tracking-tight text-transparent",
             "text-2xl md:text-4xl",
           )}
         >
           Focus on what matters
         </h1>
-        <p className="max-w-70 pt-2 pb-4 text-center text-[11px] text-neutral-600 sm:max-w-xl sm:pt-3 sm:pb-6 md:text-[15px]">
+        <p className="max-w-70 pt-2 pb-4 text-center text-[11px] tracking-normal text-neutral-600 sm:max-w-xl sm:pt-4 sm:pb-8 md:text-[17px]">
           Bento grids are always a great choise to showcase many things in one
           frame
         </p>
@@ -50,14 +50,13 @@ export const GridSectiom = () => {
                   "linear-gradient(to bottom , transparent, black, transparent)",
                 background:
                   "repeating-linear-gradient(63deg, var(--color-pink-200) , var(--color-blue-300) 12px, color-mix(in oklab, var(--color-pink-500) 30%, transparent) 20px,  transparent 100px)",
-                //   "repeating-linear-gradient(63deg, var(--color-purple-400), var(--color-yellow-800) 12px, color-mix(in oklab, var(--color-violet-600) 30%, transparent) 20px, transparent 180px)",
                 backgroundSize: "300% auto",
               }}
             ></motion.div>
-            <h2 className="bg-linear-to-b from-black to-neutral-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent md:text-5xl">
+            <h2 className="bg-linear-to-b from-black to-neutral-600 bg-clip-text pb-2 text-4xl font-bold tracking-tight text-transparent md:text-5xl">
               120Fps
             </h2>
-            <div className="md:text-md mt-2 max-w-60 text-center text-sm text-neutral-700">
+            <div className="md:text-md mt-2 max-w-60 text-center text-sm leading-6 font-medium text-neutral-700">
               smooth and fast animation which are supercharged with 120Fps
             </div>
           </div>
@@ -79,7 +78,7 @@ export const GridSectiom = () => {
               )}
             />
             <div>
-              <h3 className="font-havana bg-linear-to-b from-zinc-900 to-neutral-500 bg-clip-text text-center text-4xl text-transparent md:text-5xl">
+              <h3 className="font-havana bg-linear-to-b from-zinc-900 to-neutral-500 bg-clip-text pb-2 text-center text-4xl text-transparent md:text-5xl">
                 hello hola Namaste
               </h3>
               <p className="mx-auto max-w-50 text-center text-[11px] text-neutral-600 md:max-w-full md:text-sm">
